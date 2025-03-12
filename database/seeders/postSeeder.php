@@ -16,136 +16,191 @@ class postSeeder extends Seeder
     public function run(): void
     {
 
-     $data=[
-        [
-          "userId"=> 1,
-          "id"=> 1,
-          "title"=> "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-          "body"=> "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 2,
-          "title"=> "qui est esse",
-          "body"=> "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 3,
-          "title"=>"ea molestias quasi exercitationem repellat qui ipsa sit aut",
-          "body"=> "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 4,
-          "title"=> "eum et est occaecati",
-          "body"=> "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 5,
-          "title"=> "nesciunt quas odio",
-          "body"=> "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
-        ],
-        [
-          "userId"=> 1,
-          "id"=>6,
-          "title"=> "dolorem eum magni eos aperiam quia",
-          "body"=> "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 7,
-          "title"=> "magnam facilis autem",
-          "body"=> "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 8,
-          "title"=>"dolorem dolore est ipsam",
-          "body"=> "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
-        ],
-        [
-          "userId"=> 1,
-          "id"=> 9,
-          "title"=>"nesciunt iure omnis dolorem tempora et accusantium",
-          "body"=> "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
-        ],
-        [
-          "userId"=> 1,
-          "id"=>  10,
-          "title"=>  "optio molestias id quia eum",
-          "body"=>  "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  11,
-          "title"=>  "et ea vero quia laudantium autem",
-          "body"=>  "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  12,
-          "title"=>  "in quibusdam tempore odit est dolorem",
-          "body"=>  "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
-        ],
-        [
-          "userId"=>  2,
-          "id"=> 13,
-          "title"=>  "dolorum ut in voluptas mollitia et saepe quo animi",
-          "body"=> "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  14,
-          "title"=>  "voluptatem eligendi optio",
-          "body"=>  "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
-        ],
-        [
-          "userId"=> 2,
-          "id"=>  15,
-          "title"=>  "eveniet quod temporibus",
-          "body"=>  "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
-        ],
-        [
-          "userId"=> 2,
-          "id"=>  16,
-          "title"=>  "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
-          "body"=>  "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  17,
-          "title"=>  "fugit voluptas sed molestias voluptatem provident",
-          "body"=>  "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  18,
-          "title"=>  "voluptate et itaque vero tempora molestiae",
-          "body"=>  "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
-        ],
-        [
-          "userId"=>  2,
-          "id"=> 19,
-          "title"=>  "adipisci placeat illum aut reiciendis qui",
-          "body"=>  "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
-        ],
-        [
-          "userId"=>  2,
-          "id"=>  20,
-          "title"=>  "doloribus ad provident suscipit at",
-          "body"=>  "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
-        ]
+        $blog_posts = [
+            [
+                'title' => 'The Future of Artificial Intelligence',
+                'content' => 'Startups require innovation and resilience. Understanding consumer behavior is key to launching a successful product. A strong team is crucial for business growth.',
+                'imageUrl' => 'https://static.vecteezy.com/system/resources/previews/006/712/964/non_2x/abstract-health-medical-science-healthcare-icon-digital-technology-doctor-concept-modern-innovation-treatment-medicine-on-hi-tech-future-blue-background-for-wallpaper-template-web-design-vector.jpg',
+                'category' => 'Health'
+            ],
+            [
+                'title' => 'Mastering JavaScript: Tips for Beginners',
+                'content' => 'Traveling introduces new cultures and perspectives. Exploring different landscapes and cuisines enriches our experiences. Every journey leaves lasting memories.',
+                'imageUrl' => 'https://w0.peakpx.com/wallpaper/599/652/HD-wallpaper-man-traveler-tourist-travel-road.jpg',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'The Importance of Mental Health Awareness',
+                'content' => 'Building a personal brand increases career opportunities. Online presence through LinkedIn and blogs enhances credibility. Networking opens doors to collaborations.',
+                'imageUrl' => 'https://w0.peakpx.com/wallpaper/295/877/HD-wallpaper-keep-your-health-neon-icon-red-background-neon-symbols-keep-your-health-neon-icons-keep-your-health-sign-medical-signs-keep-your-health-icon-medical-icons.jpg',
+                'category' => 'Health'
+            ],
+            [
+                'title' => 'How Travel Broadens Your Perspective',
+                'content' => 'Scientific discoveries expand our understanding of the world. Advances in medicine and technology improve lives. Research paves the way for new possibilities.',
+                'imageUrl' => 'https://c0.wallpaperflare.com/preview/966/1009/88/lake-memphremagog-aston-martin-luxury-money.jpg',
+                'category' => 'Lifestyle'
+            ],
+            [
+                'title' => 'Top Investment Strategies for Financial Growth',
+                'content' => 'Work-life balance prevents burnout and increases productivity. Setting boundaries and prioritizing mental health lead to long-term success.',
+                'imageUrl' => 'https://www.hdwallpapers.in/download/technology_blue_circuit_board_4k_hd_technology-HD.jpg',
+                'category' => 'Technology'
+            ],
+            [
+                'title' => 'Why Lifelong Learning is Essential for Success',
+                'content' => 'Managing finances wisely ensures a secure future. Budgeting, saving, and investing are key to financial freedom. Understanding personal finance leads to better decisions.',
+                'imageUrl' => 'https://i.pinimg.com/736x/25/f3/36/25f3363674a31e84b8fef7ba48b79cf1.jpg',
+                'category' => 'Technology'
+            ],
+            [
+                'title' => 'Balancing Work and Personal Life Effectively',
+                'content' => "Coding is a valuable skill in today's digital era. Learning JavaScript and Python can open career opportunities. Web development and AI are growing fields.",
+                'imageUrl' => 'https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-online-education-3d-render-of-a-computer-on-a-wooden-table-image_3792188.jpg',
+                'category' => 'Education'
+            ],
+            [
+                'title' => 'Startup Success: Key Factors for Entrepreneurs',
+                'content' => 'Understanding credit scores helps in financial planning. A good credit history provides better loan opportunities. Smart financial decisions lead to long-term stability.',
+                'imageUrl' => 'https://images.pexels.com/photos/2916820/pexels-photo-2916820.jpeg?cs=srgb&dl=pexels-andre-furtado-43594-2916820.jpg&fm=jpg',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'The Role of Science in Everyday Life',
+                'content' => 'Music influences emotions and creativity. Different genres evoke various feelings. Listening to music can reduce stress and boost productivity.',
+                'imageUrl' => 'https://www.pixelstalk.net/wp-content/uploads/images6/Beautiful-4K-Travel-Wallpaper-HD.jpg',                'category' => 'Travel'
+            ],
+            [
+                'title' => 'How Entertainment Impacts Society',
+                'content' => 'Healthy eating supports long-term well-being. Including fruits, vegetables, and proteins is crucial. Avoiding processed food improves energy levels.',
+                'imageUrl' => 'https://www.pixelstalk.net/wp-content/uploads/2016/11/Entertainment-Wallpapers-HD.jpg',
+                'category' => 'Entertainment'
+            ],
+            [
+                'title' => 'AI and Automation: The Next Industrial Revolution',
+                'content' => 'E-learning platforms are revolutionizing education. Virtual classrooms and interactive courses enhance learning. Students can access knowledge from anywhere.',
+                'imageUrl' => 'https://wallpapersok.com/images/high/travel-4k-volcano-ynlmn2hmts0n7gsw.jpg',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'Building Scalable Web Applications with React',
+                'content' => 'Entertainment is a major part of our daily lives. Movies, music, and video games provide relaxation. The digital age has transformed how we consume media.',
+                'imageUrl' => 'https://wallpapersok.com/images/high/travel-4k-smokey-mountains-3ieautj8xt1u5z2j.jpg',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'The Benefits of a Healthy Lifestyle',
+                'content' => 'Backpacking offers freedom and adventure. Experiencing new cultures enriches personal growth. Traveling solo teaches independence and adaptability.',
+                'imageUrl' => 'https://wallpaper.forfun.com/fetch/7d/7d561534a96cf08d6c708ea0d5b32a83.jpeg',
+                'category' => 'Programming'
+            ],
+            [
+                'title' => 'Exploring Hidden Travel Destinations',
+                'content' => 'Renewable energy is essential for sustainability. Solar and wind power reduce environmental impact. Green technologies are shaping the future economy.',
+                'imageUrl' => 'https://i.pinimg.com/736x/2b/a0/19/2ba0197066e5d43fcdc30f89a6d85c37.jpg',
+                'category' => 'Technology'
+            ],
+            [
+                'title' => 'How to Make Smart Financial Decisions',
+                'content' => 'AI is revolutionizing industries with automation. Machine learning improves decision-making. The future of AI holds endless possibilities for innovation.',
+                'imageUrl' => "https://wallpaperaccess.com/full/1104816.jpg",
+                'category' => 'Finance'
+            ],
+            [
+                'title' => 'The Impact of Online Education on Learning',
+                'content' => 'Starting a business requires passion and strategy. Entrepreneurs must understand market needs. Innovation drives business success in competitive industries.',
+                'imageUrl' => 'https://www.pixelstalk.net/wp-content/uploads/images5/4K-Programming-Wallpaper-HD.jpg',
+                'category' => 'Programming'
+            ],
+            [
+                'title' => 'The Power of Mindfulness in Daily Life',
+                'content' => 'Mental health awareness is growing worldwide. Seeking help and practicing mindfulness improve well-being. Breaking the stigma around mental health is important.',
+                'imageUrl' => 'https://w0.peakpx.com/wallpaper/113/678/HD-wallpaper-financial-applications-online-banking-e-wallet-banking-finance-concepts.jpg',
+                'category' => 'Finance'
+            ],
+            [
+                'title' => 'What Makes a Business Stand Out in 2025',
+                'content' => 'Machine learning is transforming industries. AI analyzes large datasets for insights. Its applications in healthcare, finance, and security are expanding rapidly.',
+                'imageUrl' => 'https://w0.peakpx.com/wallpaper/274/795/HD-wallpaper-travel-adventure-words-inscription-hand.jpg',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'Advancements in Medical Science and Healthcare',
+                'content' => 'Exploring new destinations fosters appreciation for diversity. Travel teaches adaptability and broadens our perspectives. History and nature shape unforgettable journeys.',
+                'imageUrl' => 'https://images.pexels.com/photos/132477/pexels-photo-132477.jpeg?cs=srgb&dl=pexels-inspiredimages-132477.jpg&fm=jpg',
+                'category' => 'Science'
+            ],
+            [
+                'title' => 'How Music Influences Human Emotions',
+                'content' => 'Technology is evolving rapidly, shaping our future. AI, blockchain, and IoT are changing industries. Businesses must adapt to remain competitive.',
+                'imageUrl' => 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZW50ZXJ0YWlubWVudHxlbnwwfHwwfHx8MA%3D%3D',
+                'category' => 'Entertainment'
+            ],
+            [
+                'title' => 'Machine Learning Applications in Everyday Life',
+                'content' => 'Machine learning enhances daily life through virtual assistants, recommendation systems, fraud detection, and healthcare predictions. It also powers self-driving cars, chatbots, social media feeds, spam filtering, and smart home automation for a seamless experience.',
+                'imageUrl'=>'https://c4.wallpaperflare.com/wallpaper/620/839/767/gifted-4k-download-best-hd-desktop-wallpaper-preview.jpg',
+                'category' => 'Education'
+            ],
+            [
+                'title' => 'Essential Web Development Trends for 2025',
+                'content' => 'Maintaining good health requires exercise and a balanced diet. Mental well-being is equally important. Small daily habits contribute to a healthier life.',
+                'imageUrl' => 'https://wallpaper.forfun.com/fetch/7c/7c7ff6f952598ed3e0188bb88a856300.jpeg',
+                'category' => 'Technology'
+            ],
+            [
+                'title' => 'The Growing Awareness of Mental Health',
+                'content' => 'Responsive web design ensures accessibility on all devices. A mobile-first approach is crucial. Optimized websites improve user experience and engagement.',
+                'imageUrl' => 'https://e0.pxfuel.com/wallpapers/686/841/desktop-wallpaper-jubin-nautiyal-and-pritam-size.jpg',
+                'category' => 'Entertainment'
+            ],
+            [
+                'title' => 'Solo Travel: A Journey to Self-Discovery',
+                'content' => 'The gaming industry is booming worldwide. Esports competitions attract millions of players. Video games offer entertainment and cognitive benefits.',
+                'imageUrl' => 'https://wallpapers.com/images/hd/cool-science-desktop-themed-art-lp6txk7ycdciujvw.jpg',
+                'category' => 'Science'
+            ],
+            [
+                'title' => 'Understanding Credit Scores and Financial Planning',
+                'content'=>'Understanding credit scores is essential for managing financial health, as they impact loan approvals, interest rates, and financial opportunities. Effective financial planning helps improve credit scores by ensuring timely payments, reducing debt, and maintaining a balanced credit utilization ratio.',
+                'imageUrl' => 'https://c4.wallpaperflare.com/wallpaper/767/594/322/books-library-bokeh-depth-of-field-wallpaper-preview.jpg',
+                'category' => 'Education'
+            ],
+            [
+                'title' => 'The Rise of E-learning Platforms',
+                'content' => 'Front-end development enhances user experiences. React, Vue, and Angular are popular frameworks. A strong grasp of HTML, CSS, and JavaScript is essential.',
+                'imageUrl' => 'https://4kwallpapers.com/images/walls/thumbs/21448.jpg',
+                'category' => 'Lifestyle'
+            ],
+            [
+                'title' => 'How to Build a Strong Personal Brand',
+                'content' => 'Scientific research drives technological advancements. Innovations in renewable energy and medicine impact the future. Collaboration accelerates global progress.',
+                'imageUrl' => 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww',
+                'category' => 'Travel'
+            ],
+            [
+                'title' => 'The Future of Renewable Energy Technologies',
+                'content' => 'Continuous learning enhances career prospects. Certifications and networking open new doors. Staying updated with industry trends ensures professional growth.',
+                'imageUrl' => 'https://wallpapers.com/images/hd/doctor-with-globe-in-hand-hd-medical-dff7ahiwc5xsfjm0.jpg',
+                'category' => 'Health'
+            ],
+            [
+                'title' => 'How the Gaming Industry is Evolving',
+                'content' => 'A balanced lifestyle includes work, rest, and recreation. Mindfulness and self-care reduce stress. Setting boundaries leads to a fulfilling life.',
+                'imageUrl' => 'https://c1.wallpaperflare.com/preview/411/87/644/chart-trading-courses-forex.jpg',
+                'category' => 'Finance'
+            ],
         ];
         
-        $categories=Category::all();
-        foreach($data as $item)
+        $categories=Category::all()->keyBy('category_name');
+        foreach($blog_posts as $item)
         {
+          $category = $categories[$item['category']] ?? null;
             post::create([
-              'category_id'=>$categories->random()->id,
+              'category_id'=>$category->id,
                'title'=>$item['title'],
-               'content'=>$item['body'],
+               'content'=>$item['content'],
+               'img_url'=>$item['imageUrl'],
             ]);
             }
     }

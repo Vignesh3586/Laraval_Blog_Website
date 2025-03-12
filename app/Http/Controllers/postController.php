@@ -11,13 +11,14 @@ class postController extends Controller
 {
     public function index(Request $request){
         // $title="Blog web app";
+        $categories=Category::all();
         $query=post::query();
 
         if($request->has('search')&&!empty($request->search)){
            $query->where('title','like',"%".$request->search."%")->orWhere('content','like',"%".$request->search."%");
         }
-        $posts=$query->paginate(5);
-        return view('posts.index',compact('posts'));
+        $posts=$query->paginate(6);
+        return view('posts.index',compact('posts','categories'));
     }
     
 
@@ -42,12 +43,8 @@ class postController extends Controller
     
 
 
-    public function oldUrl(){
-      return redirect()->route('new_url');
-    }
-
-    public function newUrl(){
-      return "<h1>New URL Page</h1>";
-    }
+  public function about(){
+    return view('posts.about');
+  }
 
 }

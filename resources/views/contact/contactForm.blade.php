@@ -1,36 +1,34 @@
 @extends('layouts.master')
 @section('content')
-<div class="min-vh-100 min-vw-100 bg-secondary bg-gradient">
-  <h3>Contact Form</h3>
+<div class="form-container">
+  <h3 style="color: #fff;">Contact Form</h3>
   @if(session('status'))
-    <div class="alert alert-success">{{session('status')}}</div>
+  <div class="alert alert-success">{{session('status')}}</div>
   @endif
-  <form class="border border-rounded m-1 m-md-3 m-lg-5" method="GET" action="{{route('submitContact')}}">
-      <div class="form-group p-2">
-        <label for="name" class="form-label">Name</label>
-        <input type="text" name="name" id="name" class="form-control">
-        @error('name')
-          <div class="text-danger">{{$message}}</div>
-        @enderror
-      </div>
-      <div class="form-group p-2">
-        <label for="email" class="form-label">Email</label>
-        <input type="text" name="email" id="email" class="form-control">
-        @error('email')
-          <div class="text-danger">{{$message}}</div>
-        @enderror
-      </div>
-      <div class="form-group p-2">
-        <label for="message" class="form-label">Message</label>
-        <textarea type="text" name="message" id="message" class="form-control"></textarea>
-        @error('message')
-          <div class="text-danger">{{$message}}</div>
-        @enderror
-      </div>
-      <button name="submit" type="submit" class="btn btn-primary m-2  w-"><a class="text-white text-decoration-none" href="{{route('submitContact')}}">
-        Submit</a>
-      </button>
-      @csrf
+  <form class="contact" method="POST" action="{{route('sendmail')}}">
+  @csrf
+    <div >
+      <input class="input-box" type="text" name="name" id="name" placeholder="Name">
+      @error('name')
+      <div  class="error">{{$message}}</div>
+      @enderror
+    </div>
+    <div>
+      <input class="input-box" type="text" name="email" id="email" placeholder="Email" >
+      @error('email')
+      <div  class="error">{{$message}}</div>
+      @enderror
+    </div>
+    <div>
+      <textarea class="msg-box" type="text" name="message" id="message" placeholder="Message"></textarea>
+      @error('message')
+      <div class="error">{{$message}}</div>
+      @enderror
+    </div>
+    <button class="send-btn" name="submit" type="submit">
+    SUBMIT 
+        </button>
+ 
   </form>
 </div>
 @endsection

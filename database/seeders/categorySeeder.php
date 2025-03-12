@@ -14,16 +14,16 @@ class categorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            "Tech & Programming",
-            "Personal Development",
-            "Finance & Money Management",
-            "Health & Wellness",
-            "Lifestyle & Travel",
-            "Education & Learning",
-            "Business & Entrepreneurship",
-            "Entertainment & Pop Culture",
-            "Science & Innovation",
-            "DIY & How-To Guides"
+            'Technology',
+            'Programming',
+            'Health',
+            'Travel',
+            'Finance',
+            'Education',
+            'Lifestyle',
+            'Business',
+            'Science',
+            'Entertainment',
         ];
         
         foreach($categories as $category_name){
