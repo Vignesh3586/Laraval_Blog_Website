@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Mail;
 
 class MailController extends Controller
 {
+  public function show(){
+    return view('contact.contactForm');
+  }
+
     public function sendMail(Request $request){
         // validate input
         $request->validate([
@@ -15,6 +19,7 @@ class MailController extends Controller
         "mail"=> "required|email",
         "message"=>"required",
         ]);
+        dd($request);
 
         // data
         $data=[
@@ -26,7 +31,7 @@ class MailController extends Controller
         // send mail
         Mail::to(env('MAIL_FROM_ADDRESS'))->send(new MyMail($data))->view('mail.view')->with('data',$this->$data);
 
-        return back()->with('status',"Mail has been sent successfully");
+         back()->with('status',"Mail has been sent successfully");
 
     }
 }

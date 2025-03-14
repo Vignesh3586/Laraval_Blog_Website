@@ -5,7 +5,7 @@
   @if(session('status'))
   <div class="alert alert-success">{{session('status')}}</div>
   @endif
-  <form class="contact" method="POST" action="{{route('sendmail')}}">
+  <form class="contact" method="POST" action="{{route('contact.sendmail')}}">
   @csrf
     <div >
       <input class="input-box" type="text" name="name" id="name" placeholder="Name">

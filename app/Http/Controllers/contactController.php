@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class contactController extends Controller
 {
-    public function show(){
-        return view('contact.contactForm');
-    }
+    
+    
+    public function send(){
+        $toEmail="vigneshr3586@gmail.com";
+        $fromEmail="laxmanr3586@gmail.com";
+        $subject="sent email";
+        $message="Hiii....";
 
+    }
 }
