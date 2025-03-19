@@ -1,7 +1,0 @@
-services:
-  app:
-    build: .
-    ports:
-      - "10000:10000"  # Ensure this matches the application’s port
-    expose:
-      - "10000"

@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: laravel_app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: laravel_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: blog_web_app
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 
+      MYSQL_ROOT_PASSWORD: 
+    ports:
+      - "3306:3306"
